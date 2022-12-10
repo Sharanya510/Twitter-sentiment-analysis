@@ -11,19 +11,19 @@ When we provide a twitter handle of a user, it performs sentiment analysis on th
 In the rootfolder, a file named "Twitter_Data.csv" is the datset used.
 The Dataset used here is a labelled dataset which consists of tweets divided as Positive, Neutral and Negative. A snippet below shows the distribution of the tweets from the chosen dataset in the mentioned categories.
 
-![category](/category.png)
+![category](https://github.com/Sharanya510/Twitter-sentiment-analysis/blob/main/category.PNG)
 
 ### Attaching a snippet showing Distribution of Text length for Positive Sentiment tweets.   
 
-![positive](/positive.png)
+![positive](https://github.com/Sharanya510/Twitter-sentiment-analysis/blob/main/positive.PNG)
 
 ### Attaching a snippet showing Distribution of Text length for Negative Sentiment tweets.   
 
-![negative](/negative.png)
+![negative](https://github.com/Sharanya510/Twitter-sentiment-analysis/blob/main/negative.PNG)
 
 ### A pie chart representing categories of tweets.   
 
-![piechart](/piechart.png)
+![piechart](https://github.com/Sharanya510/Twitter-sentiment-analysis/blob/main/piechart.PNG)
 
 ## Steps carried out
 
@@ -34,7 +34,7 @@ Create a model.
 For the NLP tasks, it is suggestable to make use of LSTM model, hence, implemented that.   
 Snippet attached below shows how the model created above looks like:   
 
-![model](/model.png)
+![model](https://github.com/Sharanya510/Twitter-sentiment-analysis/blob/main/model.png)
 
 Model evaluation    
 Metrics observed are:   
@@ -45,15 +45,15 @@ F1 Score  : 0.8859
 
 A plot showing the model accuracy and model losses.
 
-![accuracy vs loss](/accuracy_vs_loss.png)
+![accuracy vs loss](https://github.com/Sharanya510/Twitter-sentiment-analysis/blob/main/accuracy_vs_loss.PNG)
 
 A snippet showing Confusion matrix
 
-![confusion_matrix](/confusion_matrix.png)
+![confusion_matrix](https://github.com/Sharanya510/Twitter-sentiment-analysis/blob/main/confusion_matrix.PNG)
 
 Now, it time for observing the results. A snippet attached below shows the sentiment for a given tweet.
 
-![evaluation](/evaluation.png)
+![evaluation](https://github.com/Sharanya510/Twitter-sentiment-analysis/blob/main/evaluation.PNG)
 
 So far, the training is done. Now, we need to create a FLASK application. For achieving this, I used FLASK python framework for creating a web server and obtain inputs from the web app.   
 
@@ -72,13 +72,13 @@ This dataframe will now be fed into a HTML table using flask for obtaining the r
 The results shown here are obtained by passing the user handle as "elonmusk" and click on the button "Predict Tweets", your results will be loaded as attached below.
 
 ### Home Page
-![HomePage](/HomePage.png)
+![HomePage](https://github.com/Sharanya510/Twitter-sentiment-analysis/blob/main/HomePage.PNG)
 
 ### Predicted Tweets
 
-![output1](/output1.png)
+![output1](https://github.com/Sharanya510/Twitter-sentiment-analysis/blob/main/output1.PNG)
 
-![output2](/output2.png)
+![output2](https://github.com/Sharanya510/Twitter-sentiment-analysis/blob/main/output2.PNG)
 
 ## How to Run this code in your machine
 
